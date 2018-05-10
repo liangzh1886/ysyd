@@ -9,7 +9,7 @@
 		<spring-version>4.3.14.RELEASE</spring-version>
 	</properties>
 	<dependencies>
-		<dependency>
+		<dependency> 
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring-version}</version>
@@ -39,8 +39,7 @@
 			<artifactId>spring-aspects</artifactId>
 			<version>${spring-version}</version>
 		</dependency>
-
-
+		
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
