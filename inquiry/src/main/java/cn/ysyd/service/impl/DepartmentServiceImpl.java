@@ -33,9 +33,5 @@ public class DepartmentServiceImpl implements DepartmentService {
 	public int update(Department department){
 		return departmentMapper.updateByPrimaryKey(department);
 	}
-	
-	public int test(){
-		return 1;
-	}
 
 }

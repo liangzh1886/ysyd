@@ -14,7 +14,4 @@ public interface DepartmentService {
 	public List<Department> getAll();
 	
 	public int update(Department department);
-	
-	
-	
 }
