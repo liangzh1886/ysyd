@@ -8,7 +8,4 @@ public interface PatientService {
 	public void deleteById(Integer id);
 	
 	public Patient findById(Integer id);
-	
-	
-	
 }
