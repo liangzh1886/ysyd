@@ -9,6 +9,4 @@ public interface PatientService {
 	
 	public Patient findById(Integer id);
 	
-	
-	
 }
