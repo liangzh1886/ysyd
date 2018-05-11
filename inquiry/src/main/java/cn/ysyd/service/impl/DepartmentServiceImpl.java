@@ -31,7 +31,9 @@ public class DepartmentServiceImpl implements DepartmentService {
 	}
 	
 	public int update(Department department){
+		System.out.println("hehe");
 		return departmentMapper.updateByPrimaryKey(department);
 	}
+	
 
 }
